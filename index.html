@@ -10,19 +10,29 @@
   <body>
     <div class="container">
       <h1>Let's Play Ping Pong!</h1>
-      <p>Ping Pong will count up to your number from one with the following exceptions:</p>
-      <ul>
-        <li>Numbers divisible by 3 will be replaced with "ping"</li>
-        <li>Numbers divisible by 5 will be replaced with "pong"</li>
-        <li>Numbers divisible by 15 are replaced with "pingpong"</li>
-      </ul>
-      <form id="game">
-        <div class="form-group">
-          <label for="number">Enter a year and find out if it's a leap year:</label>
-          <input id="number" type="text">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="well">
+            <h3>How to play:</h3>
+            <p>Ping Pong will count up to your number from one with the following exceptions:</p>
+            <ul>
+              <li>Numbers divisible by 3 will be replaced with "ping"</li>
+              <li>Numbers divisible by 5 will be replaced with "pong"</li>
+              <li>Numbers divisible by 15 are replaced with "pingpong"</li>
+            </ul>
+          </div>
         </div>
-        <button type="submit" class="btn btn-success">Play!</button>
-      </form>
+        <div class="col-md-7">
+          <form id="game">
+            <div class="form-group">
+              <label for="number">Enter a number here:</label>
+              <input id="number" type="text">
+            </div>
+            <button type="submit" class="btn btn-success">Play!</button>
+          </form>
+        </div>
+      </div>
+
         <ul id="list">
 
         </ul>
