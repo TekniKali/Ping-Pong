@@ -16,3 +16,20 @@ var pingPong = function(number) {
   }
   return gameArray;
 }
+
+var gameResults = function(number) {
+    $('ul#list').empty();
+  number.forEach(function(item) {
+    $("ul#list").append("<li>" + item + "<li>");
+  });
+  return;
+}
+
+$(document).ready(function() {
+  $("form#game").submit(function(event) {
+    event.preventDefault();
+    var number = $("input#number").val();
+    gameResults(pingPong(number));
+
+  });
+});
