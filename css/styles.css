@@ -2,6 +2,17 @@
   display: none;
 }
 
-h1 {
-  
+img {
+  border-radius: 5px;
+  padding-top: 0px
+}
+
+.well {
+  background-color: white;
+}
+
+.btn {
+  background-color: black;
+  border: black;
+  color: white;
 }
