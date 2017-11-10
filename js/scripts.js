@@ -20,7 +20,7 @@ var pingPong = function(number) {
 var gameResults = function(number) {
     $('ul#list').empty();
   number.forEach(function(item) {
-    $("ul#list").append("<li>" + item + "<li>");
+    $("ul#list").append("<li>" + item);
   });
   return;
 }
