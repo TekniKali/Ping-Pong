@@ -11,33 +11,33 @@ This webpage is a ping pong program, displaying an empty form field for the user
 
 1. It can count up to the provided number.
   - **Example Input**: 2
-  - **Example Output**: [1,2]
+  - **Example Output**: [1, 2]
 
 2. While counting, it will replace any number divisible by three with the word "ping".
   - **Example Input**: 4
-  - **Example Output**: [1,2,ping,4]
+  - **Example Output**: [1, 2, ping, 4]
 
 3. While counting, it will replace any number divisible by five with the word "pong".
   - **Example Input**: 6
-  - **Example Output**: [1,2,ping,4,pong,ping]
+  - **Example Output**: [1, 2, ping, 4, pong, ping]
 
 4. While counting, it will replace any number divisible by 15 with the word "pingpong".
   - **Example Input**: 16
-  - **Example Output**: [1,2,ping,four,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong,16]
+  - **Example Output**: [1, 2, ping, four, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong, 16]
 
 5. It will display new results each time a number is inputted into the form.
   - **1st Example Input**: 13
-  - **1st Example Output**: [1,2,ping,four,pong,ping,7,8,ping,pong,11,ping,13]
+  - **1st Example Output**: [1, 2, ping, four, pong, ping, 7, 8, ping, pong, 11, ping, 13]
   - **2nd Example Input**: 6
   - **2nd Example Output**: [1,2,ping,4,pong,ping]
 
 6. It will display each number as a list item.
   - **Example Input**: 4
   - **Example Output**:
-    *1
-    *2
-    *ping
-    *4
+    - 1
+    - 2
+    - ping
+    - 4
 
 **Setup/Installation Requirements**
 
