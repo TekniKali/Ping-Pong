@@ -1,5 +1,9 @@
-.list {
-  display: none;
+#symbols {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  height: 500px
 }
 
 .well {
@@ -8,7 +12,6 @@
 
 img {
   border-radius: 5px;
-  float: left;
 }
 
 #well2 {
@@ -19,4 +22,8 @@ img {
   background-color: black;
   border: black;
   color: white;
+}
+
+.list {
+  display: none;
 }

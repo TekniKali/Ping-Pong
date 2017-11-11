@@ -5,7 +5,7 @@ By Lindsey Halliday
 
 **Description**
 
-This webpage is a ping pong program, displaying an empty form field for the user to input any number. Once a number is submitted, it will count up to that number, with each number displayed as a list item. Every number divisible by three will be replaced with the word "ping", every number divisible by five will be replaced with "pong", and every number divisible by 15 will be replaced with "pingpong". HTML, CSS, Bootstrap, Javascript and jQuery were used to write and style this webpage.
+This webpage is a ping pong application, displaying an empty form field for the user to input any number. Once a number is submitted, it will count up to that number, with each number displayed as a list item. Every number divisible by three will be replaced with the word "ping", every number divisible by five will be replaced with "pong", and every number divisible by 15 will be replaced with "pingpong". HTML, CSS, Bootstrap, Javascript and jQuery were used to write and style this webpage.
 
 **Specifications**
 
