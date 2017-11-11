@@ -2,17 +2,13 @@
   display: none;
 }
 
-/*li {
-  display: inline-flex;
-}*/
-
 .well {
   background-color: white;
 }
 
 img {
   border-radius: 5px;
-  padding: 0px;
+  float: left;
 }
 
 #well2 {
