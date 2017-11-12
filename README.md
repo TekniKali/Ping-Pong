@@ -43,7 +43,7 @@ This webpage is a ping pong application, displaying an empty form field for the 
 
 Create a new directory call "ping-pong" on your desktop. Open the GitHub repository that I created for the project. Clone the repository, with the command "git clone [repository url]", into the local directory. Open code with the command "atom ."
 
-Here is a link to the gh-page: https://ilminka.github.io/
+Here is a link to the gh-page: https://ilminka.github.io/ping-pong/
 
 **Known Bugs**
 
