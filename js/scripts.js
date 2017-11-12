@@ -30,5 +30,7 @@ $(document).ready(function() {
     var number = $("input#number").val();
     gameResults(pingPong(number));
 
+    $("#static-img").hide();
+    $("#gif").show();
   });
 });

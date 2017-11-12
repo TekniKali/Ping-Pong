@@ -1,9 +1,14 @@
+#gif {
+  display: none;
+}
+
 #symbols {
   background-color: black;
   color: white;
   text-align: center;
   font-size: 10px;
-  height: 500px
+  height: 500px;
+  border-radius: 5px;
 }
 
 .well {
